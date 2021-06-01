@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.nav-bar-content {
+  padding: 20px !important;
+}
+
+.content {
+  color: #00b5ad !important;
+  font-family: cursive;
+}
+
+.form-container {
+  width: 70%;
+}
