@@ -30,9 +30,9 @@ const TrailSpecs = (props) => {
             </p>
             <div>
               <strong>Reviews</strong>
-              {props.reviews.filter((review) => review.trail_id === props.trail.id).map((review) => (
+              {/* {props.reviews.filter((review) => review.trail_id === props.trail.id).map((review) => (
                 <li key={review.id}>{review.comment}</li>
-              ))}
+              ))} */}
               <br />
               {/* {props.newReview && props.logged_in ? (
                 <ReviewForm

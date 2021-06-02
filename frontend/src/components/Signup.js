@@ -27,7 +27,7 @@ class Signup extends React.Component {
     .then(tokenObj => {
       if(tokenObj.token){
         localStorage.setItem('token',tokenObj.token)
-        this.props.handleLogin(tokenObj.token)
+        // this.props.handleLogin(tokenObj.token)
         this.props.history.push('/')
       }else{
         alert('Login failed..')
